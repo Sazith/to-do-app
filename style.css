@@ -1,0 +1,102 @@
+/*
+ * Title: To Do List CSS file
+ * Description: This file has all the styles associated with the To Do App project
+ * Author: Sazith Shyonton
+ * Date: 04/12/2023
+ *
+ */
+
+.body_style {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background: #54cdbf;
+  padding: 25px;
+  max-width: 760px;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 4px solid #b1c9bb;
+  font-family: sans-serif;
+}
+
+h1,
+h2 {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #581dff;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid #b1c9bb;
+  padding: 0 0 10px;
+  color: #1f4acd;
+}
+
+.logo {
+  width: 100%;
+  text-align: center;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.new-task-container {
+  text-align: center;
+}
+
+.box {
+  padding: 10px 15px;
+  border: 2px solid #b1c9bb;
+  border-radius: 5px;
+  background: #fff;
+  margin: 15px 0;
+}
+
+.todo-list {
+  float: left;
+  width: 46%;
+}
+
+.complete-list {
+  float: right;
+  width: 46%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px dotted #ccc;
+}
+
+.update {
+  float: right;
+  background-color: blue;
+  color: white;
+  border: 0px;
+  padding: 3px 5px;
+}
+
+.delete {
+  float: right;
+  background-color: red;
+  color: white;
+  border: 0px;
+  padding: 3px 5px;
+}
